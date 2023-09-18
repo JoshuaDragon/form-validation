@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formsubmit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="https://formsubmit.co/hindseo2@gmail.com" method="POST">
+        <p>User id: <input type="password" name="user id" Required placeholder="length of 5 to 12 characters"></p>
+        <p>Password: <input type="password" name="password" Required placeholder="length of 7 to 12 characters"></p>
+        <p>Name: <input type="text" name="name" required placeholder="letters only"></p>
+        <p>Address: <input type="text" name="address" placeholder="Optional"></p>
+        <p>Country: <select name="_subject" id="country" required>
+            <option value="South Africa">South Africa</option>
+            <option value="">Recruiter</option>
+            <option value="Website Feedback">Website Feedback</option>
+        </select></p>
+        <p>ZIP Code: <input type="number" name="ZIP Code" required placeholder="numeric only"></p>
+        <p>Email: <input type="email" name="email" id="" required placeholder="email here"></p>
+        <p>Sex: <input type="radio">Male <input type="radio">Female</p>
+        <p>Language: <input type="checkbox">English <input type="checkbox">Non English</p>
+
+        <p>About: </p><textarea name="message" id="text" cols="30" rows="10" placeholder="Optional"></textarea>
+
+        <br>
+
+        <input class="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
